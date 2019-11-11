@@ -28,7 +28,7 @@ Look for a USB Device with Vendor ID 0x04d9, Product ID 0xb534 then sets the Ven
 ./holtek-prog.py 0x04d9 0xb534 -v 0x1234 -p 0x2345 -m "My Manufacturer" -d "My Description" -s "9876" -L
 ```
 
-When using "-L" the the tool waits for a device matching the VID/PID, programs it and then waits for the device to be removed before looking for another to program.
+When using "-L" the tool waits for a device matching the VID/PID, programs it and then waits for the device to be removed before looking for another to program.
 
 ```
 ./holtek-prog.py 0x04d9 0xb534 -v 0x1234 -p 0x2345 -m "My Manufacturer" -d "My Description" -s "0028" -L -I -P
